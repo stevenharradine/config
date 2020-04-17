@@ -5,7 +5,6 @@ alias addupstream='git remote add upstream `cat .git/config | grep stevenharradi
 
 # Set up identities
 ssh-add ~/.ssh/douglas_2018_rsa
-ssh-add ~/.ssh/***REMOVED***_2018_rsa
 
 # Enable trackpad fixes
 synclient VertEdgeScroll=1
