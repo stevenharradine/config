@@ -2,6 +2,7 @@
 alias vpn='sudo openvpn ~/openvpn/client.ovpn'
 alias pullpush='git pull upstream master && git push'
 alias addupstream='git remote add upstream `cat .git/config | grep stevenharradine | cut -d" " -f3 | sed "s/stevenharradine/telus/g"`'
+alias fixvlc="ps -aux | grep vlc | grep -v grep | awk '{print \$2}' | xargs kill -9"
 
 # Set up identities
 ssh-add ~/.ssh/douglas_2018_rsa
